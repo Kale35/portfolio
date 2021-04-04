@@ -1,0 +1,16 @@
+.Navbar {
+  background-color: #008cff;
+  height: 65px;
+}
+
+.Navbar__Buttons {
+  justify-content: center;
+  padding-top: 12px;
+  justify-content: space-between;
+}
+
+.Navbar__Buttons > Button {
+  margin-left: 120px;
+  margin-right: 120px;
+  color: whitesmoke;
+}
