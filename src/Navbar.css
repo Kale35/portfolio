@@ -1,16 +1,31 @@
 .Navbar {
   background-color: #008cff;
   height: 65px;
+  position: relative;
 }
 
 .Navbar__Buttons {
   justify-content: center;
   padding-top: 12px;
   justify-content: space-between;
+  position: relative;
 }
 
 .Navbar__Buttons > Button {
   margin-left: 120px;
   margin-right: 120px;
   color: whitesmoke;
+  position: relative;
+}
+
+.Navbar__Link {
+  text-decoration: none;
+  position: relative;
+}
+
+.Navbar__Link > Button {
+  margin-left: 120px;
+  margin-right: 120px;
+  color: whitesmoke;
+  position: relative;
 }

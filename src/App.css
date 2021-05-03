@@ -37,6 +37,7 @@
   }
 }
 
-.AboutMe {
+.Content {
   display: grid;
+  margin-bottom: 20px;
 }

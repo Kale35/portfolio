@@ -1,0 +1,30 @@
+.Skill {
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  position: relative;
+  display: grid;
+}
+
+.Skill > h2 {
+  float: left;
+  margin-right: 720px;
+  color: #0b2589;
+  font-size: 30px;
+  font-family: unset;
+  font-weight: 500;
+  position: relative;
+  text-align: justify;
+}
+
+.Skill__Details {
+  float: left;
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 3;
+  font-size: 18px;
+  color: #484848;
+  position: relative;
+  margin-left: 30px;
+}

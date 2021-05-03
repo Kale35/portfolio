@@ -1,40 +1,48 @@
 .Info {
+  position: relative;
 }
 
 .Info__Header {
   height: 50px;
+  position: relative;
   width: 300px;
-  margin-top: 30px;
+  margin-top: 25px;
   align-self: center;
 }
 
 .Info__Header > h2 {
+  position: relative;
   color: #0b2589;
-  font-family: sans-serif;
-  font-weight: 600px;
+  font-family: unset;
+  font-weight: 500;
   font-size: 30px;
   float: left;
-  margin-left: 30px;
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 .Info__Contents {
+  position: relative;
   float: left;
-  width: 50%;
 }
 
 .Info__Contents > img {
   position: relative;
-  max-width: 125px;
-  max-height: 125px;
+  max-width: 155px;
+  max-height: 155px;
   border-radius: 75px;
   float: left;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .Info__Contents > p {
+  position: relative;
   text-align: justify;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Open Sans";
-  margin-left: 170px;
+  line-height: 2;
+  margin-left: 240px;
+  margin-top: 10px;
   color: #484848;
+  width: 65%;
 }
