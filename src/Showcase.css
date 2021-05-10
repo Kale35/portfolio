@@ -1,5 +1,6 @@
 .Showcase {
   margin-top: 15px;
+  position: relative;
 }
 
 .Showcase__Header > h2 {
@@ -32,6 +33,7 @@
 .Showcase__Image {
   width: 175px;
   height: 175px;
+  position: relative;
 }
 
 .Showcase__Item > p {
@@ -40,4 +42,5 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
   color: rgb(1, 119, 197);
+  position: relative;
 }

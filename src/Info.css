@@ -6,7 +6,7 @@
   height: 50px;
   position: relative;
   width: 300px;
-  margin-top: 25px;
+  margin-top: 80px;
   align-self: center;
 }
 
@@ -22,27 +22,25 @@
 }
 
 .Info__Contents {
-  position: relative;
   float: left;
 }
 
 .Info__Contents > img {
-  position: relative;
   max-width: 155px;
   max-height: 155px;
   border-radius: 75px;
   float: left;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .Info__Contents > p {
-  position: relative;
+  float: left;
+  position: inherit;
   text-align: justify;
   font-size: 25px;
   font-family: "Open Sans";
   line-height: 2;
-  margin-left: 240px;
-  margin-top: 10px;
   color: #484848;
   width: 65%;
+  padding-left: 20px;
 }
