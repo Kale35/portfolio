@@ -1,0 +1,53 @@
+.SkillSet {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SkillSet__Header > h2 {
+  color: #0b2589;
+  font-family: unset;
+  font-weight: 500;
+  font-size: 30px;
+  float: left;
+  margin-left: 50px;
+  position: relative;
+}
+
+.SkillSet_Skills {
+  margin-top: 80px;
+}
+
+.SkillSet__Skill {
+  margin-top: 50px;
+  float: left;
+}
+
+.SkillSet__Skill > img {
+  width: 125px;
+  height: 125px;
+  margin-left: 70px;
+  float: left;
+}
+
+.SkillSet__Description {
+  margin-left: 127px;
+}
+
+.SkillSet__Description > h3 {
+  color: rgb(1, 119, 197);
+  float: left;
+  margin-left: 30px;
+  margin-top: -35px;
+}
+
+.SkillSet__Description > p {
+  margin-left: 100px;
+  margin-top: 30px;
+  text-align: justify;
+  width: 800px;
+  line-height: 40px;
+  font-family: "Open Sans";
+  font-size: large;
+  color: #484848;
+}

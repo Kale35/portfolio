@@ -1,17 +1,18 @@
 import React from 'react'
 import {Avatar} from '@material-ui/core';
 import './Info.css'
+import Berat from './BeratK.jpg';
+
 function Info() {
     return (
         <div>
             <div className="Info__Header">
-                <h2>Berat Kales:</h2>
+                <h2>About Me:</h2>
             </div>
             <div className="Info__Contents">
-                <img src='http://tcap.pbworks.com/f/1435170280/myAvatar.png'></img>
+                <img src={Berat}></img>
             
-                <p>Hello and welcome to my portfolio, I am a CS undergrad going for software engineering     
-and cybersecurity at Adelphi  University.  I am an aspiring full stack developer(currently pursing MERN Stack) and I have experience in JavaScript, ReactJS, UI/UX design and much more. </p>
+                <p>Hello, my name is Berat Kales, I am an undergraduate computer science major at Adelphi University. I am specializing in software engineering and cybersecurity and I am also a very capable developer. I have extensive experience in UI/UX design as well as frontend development and a growing knowledge in backend. I am eager to learn new things and expand my mastery.</p>
             </div>
         </div>
     )

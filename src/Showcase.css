@@ -1,6 +1,7 @@
 .Showcase {
-  margin-top: 15px;
+  margin-top: 20px;
   position: relative;
+  border-radius: 10%;
 }
 
 .Showcase__Header > h2 {
@@ -14,26 +15,30 @@
 }
 
 .Showcase__Content {
-  margin-top: 65px;
+  margin-top: 75px;
   align-self: left;
   text-align: center;
   justify-content: space-evenly;
   position: relative;
   display: flex;
+  border-radius: 10%;
 }
 
 .Showcase__Item > .Showcase__Button {
   position: relative;
   margin-top: 0px;
+  border-radius: 10%;
   width: 175px;
   height: 175px;
   color: rgb(1, 119, 197);
+  box-shadow: 0px 8px 15px rgba(1, 119, 197, 0.3);
 }
 
 .Showcase__Image {
   width: 175px;
   height: 175px;
   position: relative;
+  border-radius: 10%;
 }
 
 .Showcase__Item > p {

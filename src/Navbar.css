@@ -8,27 +8,25 @@
 
 .Navbar__Buttons {
   display: flex;
-  justify-content: center;
   padding-top: 12px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   position: relative;
 }
 
 .Navbar__Buttons > Button {
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 0px;
+  margin-right: 0px;
   color: whitesmoke;
-  position: relative;
 }
 
 .Navbar__Link {
+  width: 80px;
   text-decoration: none;
   position: relative;
 }
 
 .Navbar__Link > Button {
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 0px;
+  margin-right: 0px;
   color: whitesmoke;
-  position: relative;
 }
